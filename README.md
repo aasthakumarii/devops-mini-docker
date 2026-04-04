@@ -58,15 +58,18 @@ http://localhost:3000
 ## 🐳 Run with Docker
 
 Step 1: Build Docker Image
+```bash
 docker build -t myapp .
+```
 
 👉 This creates a Docker image from your project.
 
 Step 2: Run Docker Container
+```bash
 docker run -p 3000:3000 myapp
+```
 
 👉 This runs the container and maps port 3000.
 
 Step 3: Open in browser
 http://localhost:3000
-```
