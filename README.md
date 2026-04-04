@@ -53,6 +53,8 @@ node app.js
 
 http://localhost:3000
 
+---
+
 ### 🐳 Run with Docker
 
 Step 1: Build Docker Image
