@@ -48,14 +48,14 @@ Download from: https://nodejs.org/
 
 ```bash
 node app.js
-
+```
 ### Step 3: Open in browser
 
 http://localhost:3000
 
 ---
 
-### 🐳 Run with Docker
+## 🐳 Run with Docker
 
 Step 1: Build Docker Image
 docker build -t myapp .
