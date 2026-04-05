@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+  app:
+    image: aasthakumarii/myapp:v1
+    ports:
+      - "3000:3000"
