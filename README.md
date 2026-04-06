@@ -1,3 +1,7 @@
+## 🌟 Update
+
+Added more detailed documentation and improvements.
+
 # 🚀 DevOps Mini Docker Project
 
 ![Docker Pulls](https://img.shields.io/docker/pulls/aasthakumarii/myapp)
@@ -49,6 +53,7 @@ Download from: https://nodejs.org/
 ```bash
 node app.js
 ```
+
 ### Step 3: Open in browser
 
 http://localhost:3000
@@ -58,6 +63,7 @@ http://localhost:3000
 ## 🐳 Run with Docker
 
 Step 1: Build Docker Image
+
 ```bash
 docker build -t myapp .
 ```
@@ -65,6 +71,7 @@ docker build -t myapp .
 👉 This creates a Docker image from your project.
 
 Step 2: Run Docker Container
+
 ```bash
 docker run -p 3000:3000 myapp
 ```
